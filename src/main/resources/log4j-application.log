@@ -1,0 +1,100 @@
+2021-01-10 16:19:06 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-10 16:24:08 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-10 16:26:25 INFO  RegisterController:38 - ben@rev.com has logged in.
+2021-01-10 16:27:51 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-10 16:27:55 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 16:28:06 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-10 16:28:08 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 16:34:43 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:35:04 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:36:52 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:37:27 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:41:35 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:44:09 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 16:45:08 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-10 19:08:45 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 19:08:57 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:01:56 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:02:58 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:06:08 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:10:04 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:12:36 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-10 20:13:14 INFO  RegisterController:38 - jerry@mail.com has logged in.
+2021-01-10 20:14:21 INFO  LogoutController:22 - jerry@mail.com has logged out
+2021-01-10 20:14:25 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 20:22:34 INFO  TicketApiController:43 - ben@rev.com has requested a new ticket
+2021-01-10 20:33:27 INFO  RegisterController:38 - greg@mail.com has logged in.
+2021-01-10 20:39:15 INFO  LogoutController:22 - greg@mail.com has logged out
+2021-01-10 20:39:18 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 20:41:37 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-10 20:41:39 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-10 20:41:43 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-10 20:50:45 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-10 20:50:50 INFO  LoginController:40 - greg@mail.com has logged in
+2021-01-10 20:50:55 INFO  LogoutController:22 - greg@mail.com has logged out
+2021-01-11 08:08:51 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 08:09:02 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 08:10:59 INFO  RegisterController:38 - test@test.com has logged in.
+2021-01-11 08:12:00 INFO  TicketApiController:43 - test@test.com has requested a new ticket
+2021-01-11 08:21:39 INFO  LogoutController:22 - test@test.com has logged out
+2021-01-11 08:21:42 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-11 08:23:06 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-11 08:24:04 INFO  RegisterController:38 - will@mail.com has logged in.
+2021-01-11 08:25:11 INFO  TicketApiController:43 - will@mail.com has requested a new ticket
+2021-01-11 08:25:21 INFO  LogoutController:22 - will@mail.com has logged out
+2021-01-11 08:25:25 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-11 08:25:49 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-11 08:27:18 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-11 10:14:51 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 11:09:45 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:03:58 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-11 12:04:39 INFO  LogoutController:22 - ben@rev.com has logged out
+2021-01-11 12:04:44 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:05:51 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:06:42 INFO  LoginController:40 - jerry@mail.com has logged in
+2021-01-11 12:06:47 INFO  LogoutController:22 - jerry@mail.com has logged out
+2021-01-11 12:07:20 INFO  LoginController:40 - jerry@mail.com has logged in
+2021-01-11 12:08:09 INFO  TicketApiController:43 - jerry@mail.com has requested a new ticket
+2021-01-11 12:08:58 INFO  TicketApiController:43 - jerry@mail.com has requested a new ticket
+2021-01-11 12:09:08 INFO  LogoutController:22 - jerry@mail.com has logged out
+2021-01-11 12:09:11 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:09:15 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:09:31 INFO  RegisterController:38 - test@mail.comm has logged in.
+2021-01-11 12:09:57 INFO  TicketApiController:43 - test@mail.comm has requested a new ticket
+2021-01-11 12:11:08 INFO  LogoutController:22 - test@mail.comm has logged out
+2021-01-11 12:11:12 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:12:04 INFO  TicketApiController:43 - dylan.mahaffey@gmail.com has requested a new ticket
+2021-01-11 12:13:33 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:13:58 INFO  TicketApiController:43 - dylan.mahaffey@gmail.com has requested a new ticket
+2021-01-11 12:15:00 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:15:18 INFO  TicketApiController:45 - dylan.mahaffey@gmail.com has requested a new ticket
+2021-01-11 12:16:35 INFO  TicketApiController:45 - dylan.mahaffey@gmail.com has requested a new ticket
+2021-01-11 12:16:41 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:16:45 INFO  LoginController:40 - jerry@mail.com has logged in
+2021-01-11 12:16:52 INFO  TicketApiController:45 - jerry@mail.com has requested a new ticket
+2021-01-11 12:20:20 INFO  TicketApiController:45 - jerry@mail.com has requested a new ticket
+2021-01-11 12:20:34 INFO  LogoutController:22 - jerry@mail.com has logged out
+2021-01-11 12:20:42 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:21:11 INFO  TicketApiController:45 - dylan.mahaffey@gmail.com has requested a new ticket
+2021-01-11 12:21:38 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:21:44 INFO  LoginController:40 - jerry@mail.com has logged in
+2021-01-11 12:22:06 INFO  TicketApiController:45 - jerry@mail.com has requested a new ticket
+2021-01-11 12:23:06 INFO  TicketApiController:45 - jerry@mail.com has requested a new ticket
+2021-01-11 12:23:18 INFO  LogoutController:22 - jerry@mail.com has logged out
+2021-01-11 12:52:20 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:52:53 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 12:53:05 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 12:53:22 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 13:05:32 INFO  LoginController:40 - dylan.mahaffey@gmail.com has logged in
+2021-01-11 13:05:38 INFO  LogoutController:22 - dylan.mahaffey@gmail.com has logged out
+2021-01-11 13:16:02 INFO  RegisterController:38 - jim@mail.com has logged in.
+2021-01-11 13:16:56 INFO  TicketApiController:45 - jim@mail.com has requested a new ticket
+2021-01-11 13:17:11 INFO  LogoutController:22 - jim@mail.com has logged out
+2021-01-11 13:17:15 INFO  LoginController:40 - ben@rev.com has logged in
+2021-01-11 13:17:35 INFO  ManagerTicketsApiController:49 - ben@rev.com has updated a ticket
+2021-01-11 13:18:13 INFO  TicketApiController:45 - ben@rev.com has requested a new ticket
+2021-01-29 07:51:20 INFO  Driver:20 - Testing again......
+2021-01-29 07:57:48 INFO  RegisterController:38 - temp@mail.com has logged in.
+2021-01-29 08:02:23 INFO  TicketApiController:45 - temp@mail.com has requested a new ticket
+2021-01-29 08:03:31 INFO  LoginController:40 - gitDemo@rev.com has logged in
+2021-01-29 08:07:17 INFO  ManagerTicketsApiController:49 - gitDemo@rev.com has updated a ticket

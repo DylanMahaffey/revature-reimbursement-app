@@ -1,0 +1,70 @@
+/* global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.hidden{
+    display: none !important;
+}
+main{
+    width: 100%;
+    max-width: 1300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* nav bar */
+header{
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #232526;
+    color: white !important;
+}
+nav{
+    display: flex;
+}
+.nav-link {
+    padding: 10px 30px;
+}
+.nav-link:hover {
+    background: grey;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo h4 {
+    color: white;
+}
+.logo img {
+    height: 50px !important;
+}
+
+
+
+.box{
+    padding: 50px;
+}
+
+.addExpense{
+    display: flex;
+    min-width: 150px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.view-ticket-box * {
+    margin: 10px 0;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reimbursement App</title>
+        <link rel="stylesheet" href="/P1/bulma.css">
+        <link rel="stylesheet" href="/P1/styles.css">
+        <link rel="stylesheet" href="/P1/manager-home/manager-home.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="logo">
+                <img src="/P1/images/p1-logo.png" alt="Company Logo">
+                <h4 class="title is-4">RevReimburse</h4>
+            </div>
+            <nav>
+                <a class="button is-link" href="/P1/view/logout"> Logout </a>
+            </nav>
+        </header>
+        
+        <main>
+            <h1 class="title is-h1">Welcome to RevReimburse</h1>
+
+            <button class="button is-primary" onclick="addTicket()">New Ticket</button>
+    
+            <h2>Tickets</h2>
+            <script>
+                let employees = true;
+            </script>
+            <button class="button" onclick="sort('approval', employees)">Approval</button>
+            <button class="button" onclick="sort('date', employees)">Date</button>
+            <button class="button" onclick="sort('price', employees)">Price</button>
+
+            <div class="tabs">
+                <ul>
+                    <li id="employeeTab" class="is-active" onclick="changeTab('employeeTab'); employees = !employees"><a>Employee Tickets</a></li>
+                    <li id="myTab" onclick="changeTab('myTab'); employees = !employees"><a>My Tickets</a></li>
+                </ul>
+            </div>
+
+            <table id="employeeTable" class="employeeTicketTable table is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>Requested On</th>
+                        <th>Employee Name</th>
+                        <th>Ticket Name</th>
+                        <th>Request Type</th>
+                        <th>Approved</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="ticketsView">
+            
+                </tbody>
+            </table>
+            <table id="myTable" class="myTicketTable table is-fullwidth hidden">
+                <thead>
+                    <tr>
+                        <th>Requested On</th>
+                        <th>Ticket Name</th>
+                        <th>Request Type</th>
+                        <th>Approved</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="myTicketsView">
+            
+                </tbody>
+            </table>
+        </main>
+        
+        <div id="modalContainer" class="modal">
+            <div class="modal-background" onclick="closeModal()"></div>
+            <div id="modalContent" class="modal-content">
+        
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+        </div>
+
+
+        <script src="/P1/components/add-ticket.js"></script>
+        <script src="/P1/manager-home/manager-home.js"></script>
+    </body>
+
+</html>

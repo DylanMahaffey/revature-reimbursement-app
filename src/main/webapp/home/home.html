@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reimbursement App</title>
+        <link rel="stylesheet" href="/P1/bulma.css">
+        <link rel="stylesheet" href="/P1/styles.css">
+        <link rel="stylesheet" href="/P1/home/home.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/P1/images/p1-logo.png" alt="Company Logo">
+                <h4 class="title is-4">RevReimburse</h4>
+            </div>
+            <nav>
+                <a class="button is-link" href="/P1/view/logout"> Logout </a>
+            </nav>
+        </header>
+        <main>
+            <h1 class="title is-1">Welcome to RevRiemburse</h1>
+    
+            <button class="button is-primary" onclick="addTicket()">New Ticket</button>
+            
+    
+            <h2 class="title is-2">My Tickets</h2>
+            <div id="ticketComponent">
+                <progress class="progress is-large is-info" max="100"></progress>
+            </div>
+        </main>
+        
+
+        <div id="modalContainer" class="modal">
+            <div class="modal-background" onclick="closeModal()"></div>
+            <div id="modalContent" class="modal-content">
+                
+            </div>
+            <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+        </div>
+
+        
+        <script src="/P1/components/add-ticket.js"></script>
+        <script src="/P1/home/home.js"></script>
+    </body>
+
+</html>

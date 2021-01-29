@@ -1,0 +1,16 @@
+.box{
+    width: 30%;
+    min-width: 300px;
+    max-width: 500px;
+}
+.jumbo {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
